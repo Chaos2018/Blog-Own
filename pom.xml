@@ -18,6 +18,7 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
+
     <build>
         <finalName>Blog</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -50,17 +51,6 @@
                 <plugin>
                     <artifactId>maven-deploy-plugin</artifactId>
                     <version>2.8.2</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.eclipse.jetty</groupId>
-                    <artifactId>jetty-maven-plugin</artifactId>
-                    <version>9.4.10.v20180503</version>
-                    <configuration>
-                        <scanIntervalSeconds>10</scanIntervalSeconds>
-                        <!--<webApp>
-                            <contextPath>/Blog</contextPath>
-                        </webApp>-->
-                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
