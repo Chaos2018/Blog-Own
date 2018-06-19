@@ -1,0 +1,42 @@
+h2, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: darkgrey;
+}
+
+h2 {
+    text-align: center;
+}
+
+#login {
+    width: 80%;
+    height: 60%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding-top: 10%;
+}
+
+.username, .password {
+    border: 1px rebeccapurple solid;
+    border-radius: 4px;
+    background: 0 0;
+    text-align: left;
+    font-size: 20px;
+    width: 438px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+.input-tip {
+    font-size: 20px;
+}
+
+.op-button {
+    margin-top: 20px;
+}
